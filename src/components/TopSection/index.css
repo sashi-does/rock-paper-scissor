@@ -1,0 +1,53 @@
+.top-section {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 530px;
+  margin: auto;
+  font-family: 'Bree Serif';
+  border: 2px #fff solid;
+  border-radius: 8px;
+  padding: 0px 20px;
+}
+
+.choices-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 21px;
+}
+
+.top-heading {
+  margin: 0;
+  padding: 20px 0px;
+  width: 40px;
+  font-size: 28px;
+}
+
+.score-board {
+  background-color: #fff;
+  color: #223a5f;
+  border-radius: 8px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin: 10px 0px;
+  padding-top: 10px;
+}
+
+.score-heading {
+  font-size: 21px;
+  margin-bottom: 0px;
+}
+
+@media all and (max-width: 575px) {
+  .choices-list {
+    font-size: 17px;
+    margin-right: 10px;
+  }
+}
